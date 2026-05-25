@@ -91,8 +91,9 @@ export default function Hero() {
             <a
               href={heroContent.cta.primary.href}
               className={cn(
-                "inline-flex h-14 items-center justify-center rounded-full px-8 text-sm font-semibold sm:font-medium",
+                "inline-flex h-14 items-center justify-center rounded-full px-8 text-sm font-semibold sm:font-medium tracking-wide",
                 "bg-[#C9A96E] text-[#0A0A0A]",
+                "shadow-[0_2px_12px_rgba(201,169,110,0.15)] sm:shadow-none",
                 "transition-all duration-300 ease-out",
                 "hover:bg-[#D4B87A] hover:shadow-[0_4px_20px_rgba(201,169,110,0.3)]",
                 "active:scale-[0.97]"
@@ -103,8 +104,8 @@ export default function Hero() {
             <a
               href={heroContent.cta.secondary.href}
               className={cn(
-                "inline-flex h-14 items-center justify-center rounded-full px-8 text-sm font-medium",
-                "border border-[rgba(201,169,110,0.45)] sm:border-[rgba(201,169,110,0.3)] text-[#D4B87A] sm:text-[#C9A96E] bg-[rgba(201,169,110,0.04)] sm:bg-transparent",
+                "inline-flex h-14 items-center justify-center rounded-full px-8 text-sm font-medium tracking-wide",
+                "border border-[rgba(201,169,110,0.5)] sm:border-[rgba(201,169,110,0.3)] text-[#D4B87A] sm:text-[#C9A96E] bg-[rgba(201,169,110,0.04)] sm:bg-transparent",
                 "transition-all duration-300 ease-out",
                 "hover:border-[#C9A96E] hover:bg-[rgba(201,169,110,0.06)]",
                 "active:scale-[0.97]"
