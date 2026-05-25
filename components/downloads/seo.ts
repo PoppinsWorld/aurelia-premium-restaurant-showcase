@@ -9,9 +9,9 @@ import { siteConfig } from "@/data/site";
 
 // ── Open Graph image paths ──────────────────────────────────────
 export const ogImages = {
-  default: "/images/og-image.jpg",
-  hero: "/images/og-hero.jpg",
-  menu: "/images/og-menu.jpg",
+  default: "/aurelia-premium-restaurant-showcase/images/og-image.jpg",
+  hero: "/aurelia-premium-restaurant-showcase/images/og-hero.jpg",
+  menu: "/aurelia-premium-restaurant-showcase/images/og-menu.jpg",
 } as const;
 
 // ── Twitter card meta tags ──────────────────────────────────────

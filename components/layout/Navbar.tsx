@@ -66,7 +66,7 @@ export default function Navbar() {
         <div className="flex h-16 items-center justify-between md:h-20">
           {/* Logo */}
           <a
-            href="/"
+            href="/aurelia-premium-restaurant-showcase/"
             className="relative select-none text-xl font-bold tracking-[0.2em] md:text-2xl"
           >
             <span className="bg-gradient-to-r from-[#C9A96E] via-[#D4B87A] to-[#C9A96E] bg-clip-text text-transparent">

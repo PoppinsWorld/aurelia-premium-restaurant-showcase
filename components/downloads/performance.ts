@@ -68,7 +68,7 @@ export function getDownloadPreloads() {
   return [
     {
       rel: "prefetch",
-      href: "/apk/app-arm64-v8a-release.apk",
+      href: "/aurelia-premium-restaurant-showcase/apk/app-arm64-v8a-release.apk",
       as: "fetch",
     },
   ];

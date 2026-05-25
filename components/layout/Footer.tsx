@@ -14,7 +14,7 @@ export default function Footer() {
           {/* Brand */}
           <div className="flex flex-col items-center gap-3 md:items-start">
             <a
-              href="/"
+              href="/aurelia-premium-restaurant-showcase/"
               className="select-none text-xl font-bold tracking-[0.2em]"
             >
               <span className="bg-gradient-to-r from-[#C9A96E] via-[#D4B87A] to-[#C9A96E] bg-clip-text text-transparent">

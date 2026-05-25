@@ -9,11 +9,13 @@ export interface NavItem {
   href: string;
 }
 
+const BASE = "/aurelia-premium-restaurant-showcase";
+
 export const navItems: NavItem[] = [
-  { label: "Home", href: "/" },
-  { label: "Menu", href: "/#menu" },
-  { label: "Gallery", href: "/#gallery" },
-  { label: "About", href: "/#about" },
-  { label: "Download", href: "/#download" },
-  { label: "Contact", href: "/#contact" },
+  { label: "Home", href: `${BASE}/` },
+  { label: "Menu", href: `${BASE}/#menu` },
+  { label: "Gallery", href: `${BASE}/#gallery` },
+  { label: "About", href: `${BASE}/#about` },
+  { label: "Download", href: `${BASE}/#download` },
+  { label: "Contact", href: `${BASE}/#contact` },
 ];

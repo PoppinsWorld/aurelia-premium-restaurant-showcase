@@ -12,7 +12,7 @@ export default function HeroBackground() {
       {/* Primary cinematic background image */}
       <div className="absolute inset-0">
         <Image
-          src="/images/hero-master-bg.jpeg"
+          src="/aurelia-premium-restaurant-showcase/images/hero-master-bg.jpeg"
           alt=""
           fill
           priority
@@ -25,7 +25,7 @@ export default function HeroBackground() {
       {/* Secondary atmospheric layer - city rooftop */}
       <div className="absolute inset-0">
         <Image
-          src="/images/hero-city-rooftop.jpeg"
+          src="/aurelia-premium-restaurant-showcase/images/hero-city-rooftop.jpeg"
           alt=""
           fill
           sizes="100vw"

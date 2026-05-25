@@ -62,7 +62,7 @@ export default function DownloadSection() {
           >
             <div className="relative w-full max-w-sm aspect-[9/16] rounded-2xl overflow-hidden border border-white/[0.06] shadow-[0_20px_60px_rgba(0,0,0,0.4)]">
               <Image
-                src="/images/app-showcase-mockup.jpeg"
+                src="/aurelia-premium-restaurant-showcase/images/app-showcase-mockup.jpeg"
                 alt="AURELIA mobile app"
                 fill
                 sizes="(max-width: 1024px) 80vw, 400px"

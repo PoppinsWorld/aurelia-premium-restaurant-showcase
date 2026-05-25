@@ -9,8 +9,8 @@ export const siteConfig = {
   title: "AURELIA | Premium Dining Experience",
   description:
     "Where culinary artistry meets timeless elegance. A premium dining destination offering an unforgettable gastronomic journey.",
-  url: "https://aurelia.com",
-  ogImage: "/images/og-image.jpg",
+  url: "https://poppinsworld.github.io/aurelia-premium-restaurant-showcase",
+  ogImage: "/aurelia-premium-restaurant-showcase/images/og-image.jpg",
   links: {
     instagram: "https://instagram.com/aurelia",
     facebook: "https://facebook.com/aurelia",

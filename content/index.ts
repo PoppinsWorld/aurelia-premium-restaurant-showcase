@@ -82,12 +82,12 @@ export const galleryContent = {
   headline: "Visual Poetry",
   subheadline: "Moments captured in our world of culinary art.",
   items: [
-    { label: "Signature Plating", aspect: "aspect-[3/4]", image: "/images/gourmet-steak.jpeg" },
-    { label: "The Kitchen", aspect: "aspect-square", image: "/images/michelin-chef.jpeg" },
-    { label: "Interior Ambiance", aspect: "aspect-[4/3]", image: "/images/cinematic-dining-hall.jpeg" },
-    { label: "The Bar", aspect: "aspect-[3/4]", image: "/images/luxury-bar.jpeg" },
-    { label: "Cocktail Artistry", aspect: "aspect-square", image: "/images/premium-cocktail.jpeg" },
-    { label: "Dessert Detail", aspect: "aspect-[4/3]", image: "/images/luxury-dessert.jpeg" },
+    { label: "Signature Plating", aspect: "aspect-[3/4]", image: "/aurelia-premium-restaurant-showcase/images/gourmet-steak.jpeg" },
+    { label: "The Kitchen", aspect: "aspect-square", image: "/aurelia-premium-restaurant-showcase/images/michelin-chef.jpeg" },
+    { label: "Interior Ambiance", aspect: "aspect-[4/3]", image: "/aurelia-premium-restaurant-showcase/images/cinematic-dining-hall.jpeg" },
+    { label: "The Bar", aspect: "aspect-[3/4]", image: "/aurelia-premium-restaurant-showcase/images/luxury-bar.jpeg" },
+    { label: "Cocktail Artistry", aspect: "aspect-square", image: "/aurelia-premium-restaurant-showcase/images/premium-cocktail.jpeg" },
+    { label: "Dessert Detail", aspect: "aspect-[4/3]", image: "/aurelia-premium-restaurant-showcase/images/luxury-dessert.jpeg" },
   ],
 };
 

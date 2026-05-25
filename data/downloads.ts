@@ -16,6 +16,8 @@ export interface ApkAsset {
   size: string;
 }
 
+const BASE = "/aurelia-premium-restaurant-showcase";
+
 export const apkAssets: ApkAsset[] = [
   {
     id: "arm64",
@@ -23,8 +25,8 @@ export const apkAssets: ApkAsset[] = [
     architecture: "arm64-v8a",
     description: "For modern 64-bit devices (most recent phones & tablets)",
     filename: "app-arm64-v8a-release.apk",
-    path: "/apk/app-arm64-v8a-release.apk",
-    sha1Path: "/apk/app-arm64-v8a-release.apk.sha1",
+    path: `${BASE}/apk/app-arm64-v8a-release.apk`,
+    sha1Path: `${BASE}/apk/app-arm64-v8a-release.apk.sha1`,
     size: "~13 MB",
   },
   {
@@ -33,8 +35,8 @@ export const apkAssets: ApkAsset[] = [
     architecture: "armeabi-v7a",
     description: "For older 32-bit ARM devices",
     filename: "app-armeabi-v7a-release.apk",
-    path: "/apk/app-armeabi-v7a-release.apk",
-    sha1Path: "/apk/app-armeabi-v7a-release.apk.sha1",
+    path: `${BASE}/apk/app-armeabi-v7a-release.apk`,
+    sha1Path: `${BASE}/apk/app-armeabi-v7a-release.apk.sha1`,
     size: "~12.6 MB",
   },
   {
@@ -43,8 +45,8 @@ export const apkAssets: ApkAsset[] = [
     architecture: "x86_64",
     description: "For emulators and Intel-based devices",
     filename: "app-x86_64-release.apk",
-    path: "/apk/app-x86_64-release.apk",
-    sha1Path: "/apk/app-x86_64-release.apk.sha1",
+    path: `${BASE}/apk/app-x86_64-release.apk`,
+    sha1Path: `${BASE}/apk/app-x86_64-release.apk.sha1`,
     size: "~13.2 MB",
   },
 ];

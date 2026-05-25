@@ -56,7 +56,7 @@ export default function About() {
               transition={{ duration: 0.7, delay: 0.4, ease: [0.22, 1, 0.36, 1] }}
             >
               <Image
-                src="/images/luxury-hallway.jpeg"
+                src="/aurelia-premium-restaurant-showcase/images/luxury-hallway.jpeg"
                 alt="Luxury dining hallway at AURELIA"
                 fill
                 sizes="(max-width: 1024px) 100vw, 50vw"
@@ -106,7 +106,7 @@ export default function About() {
               }}
             >
               <Image
-                src="/images/private-dining-table.jpeg"
+                src="/aurelia-premium-restaurant-showcase/images/private-dining-table.jpeg"
                 alt="Private dining experience at AURELIA"
                 fill
                 sizes="(max-width: 1024px) 100vw, 50vw"
@@ -126,7 +126,7 @@ export default function About() {
           transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
         >
           <Image
-            src="/images/final-cinematic-scene.jpeg"
+            src="/aurelia-premium-restaurant-showcase/images/final-cinematic-scene.jpeg"
             alt="AURELIA cinematic dining atmosphere"
             fill
             sizes="100vw"
