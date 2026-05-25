@@ -91,7 +91,7 @@ export default function Hero() {
             <a
               href={heroContent.cta.primary.href}
               className={cn(
-                "inline-flex h-14 items-center justify-center rounded-full px-8 text-sm font-medium",
+                "inline-flex h-14 items-center justify-center rounded-full px-8 text-sm font-semibold sm:font-medium",
                 "bg-[#C9A96E] text-[#0A0A0A]",
                 "transition-all duration-300 ease-out",
                 "hover:bg-[#D4B87A] hover:shadow-[0_4px_20px_rgba(201,169,110,0.3)]",
@@ -104,7 +104,7 @@ export default function Hero() {
               href={heroContent.cta.secondary.href}
               className={cn(
                 "inline-flex h-14 items-center justify-center rounded-full px-8 text-sm font-medium",
-                "border border-[rgba(201,169,110,0.3)] text-[#C9A96E]",
+                "border border-[rgba(201,169,110,0.45)] sm:border-[rgba(201,169,110,0.3)] text-[#D4B87A] sm:text-[#C9A96E] bg-[rgba(201,169,110,0.04)] sm:bg-transparent",
                 "transition-all duration-300 ease-out",
                 "hover:border-[#C9A96E] hover:bg-[rgba(201,169,110,0.06)]",
                 "active:scale-[0.97]"
