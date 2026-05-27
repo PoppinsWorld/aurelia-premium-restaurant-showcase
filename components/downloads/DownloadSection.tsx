@@ -12,7 +12,7 @@ export default function DownloadSection() {
   return (
     <section
       id="download"
-      className="relative py-24 md:py-32 lg:py-40 scroll-mt-20"
+      className="relative py-16 sm:py-24 md:py-32 lg:py-40 scroll-mt-20"
     >
       {/* Subtle background glow */}
       <div
@@ -22,7 +22,7 @@ export default function DownloadSection() {
             "radial-gradient(ellipse 60% 40% at 50% 50%, rgba(201,169,110,0.03), transparent)",
         }}
       />
-      <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <div className="relative mx-auto max-w-7xl px-5 sm:px-6 lg:px-8">
         {/* Header */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}

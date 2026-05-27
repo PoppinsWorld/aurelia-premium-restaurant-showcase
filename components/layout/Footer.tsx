@@ -9,7 +9,7 @@ export default function Footer() {
       {/* Gold accent line */}
       <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-[#C9A96E]/40 to-transparent" />
 
-      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <div className="mx-auto max-w-7xl px-5 sm:px-6 lg:px-8">
         <div className="flex flex-col items-center gap-10 py-20 md:flex-row md:justify-between md:gap-8">
           {/* Brand */}
           <div className="flex flex-col items-center gap-3 md:items-start">

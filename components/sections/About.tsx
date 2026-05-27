@@ -9,9 +9,9 @@ export default function About() {
   return (
     <section
       id="about"
-      className="relative py-24 md:py-32 lg:py-40 overflow-hidden scroll-mt-20"
+      className="relative py-16 sm:py-24 md:py-32 lg:py-40 overflow-hidden scroll-mt-20"
     >
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto px-5 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24 items-start">
           {/* Left: Text content */}
           <div className="space-y-8">

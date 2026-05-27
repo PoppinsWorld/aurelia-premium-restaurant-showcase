@@ -10,9 +10,9 @@ export default function ContactSection() {
   return (
     <section
       id="contact"
-      className="relative py-24 md:py-32 lg:py-40 scroll-mt-20"
+      className="relative py-16 sm:py-24 md:py-32 lg:py-40 scroll-mt-20"
     >
-      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <div className="mx-auto max-w-7xl px-5 sm:px-6 lg:px-8">
         {/* Header */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}

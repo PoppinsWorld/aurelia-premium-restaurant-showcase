@@ -25,7 +25,7 @@ export default function Hero() {
       <HeroBackground />
 
       {/* Content */}
-      <div className="relative z-10 mx-auto w-full max-w-5xl px-4 sm:px-6 lg:px-8">
+      <div className="relative z-10 mx-auto w-full max-w-5xl px-5 sm:px-6 lg:px-8">
         <motion.div
           initial="hidden"
           animate="visible"
@@ -91,7 +91,7 @@ export default function Hero() {
             <a
               href={heroContent.cta.primary.href}
               className={cn(
-                "inline-flex h-14 items-center justify-center rounded-full px-8 text-sm font-semibold sm:font-medium tracking-wide",
+                "inline-flex h-14 items-center justify-center rounded-full px-8 text-[15px] sm:text-sm font-semibold sm:font-medium tracking-normal sm:tracking-wide",
                 "bg-[#C9A96E] text-[#0A0A0A]",
                 "shadow-[0_2px_12px_rgba(201,169,110,0.15)] sm:shadow-none",
                 "transition-all duration-300 ease-out",
@@ -104,7 +104,7 @@ export default function Hero() {
             <a
               href={heroContent.cta.secondary.href}
               className={cn(
-                "inline-flex h-14 items-center justify-center rounded-full px-8 text-sm font-medium tracking-wide",
+                "inline-flex h-14 items-center justify-center rounded-full px-8 text-[15px] sm:text-sm font-medium tracking-normal sm:tracking-wide",
                 "border border-[rgba(201,169,110,0.5)] sm:border-[rgba(201,169,110,0.3)] text-[#D4B87A] sm:text-[#C9A96E] bg-[rgba(201,169,110,0.04)] sm:bg-transparent",
                 "transition-all duration-300 ease-out",
                 "hover:border-[#C9A96E] hover:bg-[rgba(201,169,110,0.06)]",

@@ -34,10 +34,10 @@ export const theme = {
     },
   },
   spacing: {
-    section: "py-24 md:py-32 lg:py-40",
-    container: "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8",
-    containerNarrow: "max-w-5xl mx-auto px-4 sm:px-6 lg:px-8",
-    containerWide: "max-w-[90rem] mx-auto px-4 sm:px-6 lg:px-8",
+    section: "py-16 sm:py-24 md:py-32 lg:py-40",
+    container: "max-w-7xl mx-auto px-5 sm:px-6 lg:px-8",
+    containerNarrow: "max-w-5xl mx-auto px-5 sm:px-6 lg:px-8",
+    containerWide: "max-w-[90rem] mx-auto px-5 sm:px-6 lg:px-8",
   },
   borderRadius: {
     sm: "rounded-md",

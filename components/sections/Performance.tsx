@@ -90,7 +90,7 @@ const itemVariants = {
 
 export default function Performance() {
   return (
-    <section className="relative py-24 md:py-32 lg:py-40 overflow-hidden scroll-mt-20">
+    <section className="relative py-16 sm:py-24 md:py-32 lg:py-40 overflow-hidden scroll-mt-20">
       {/* Subtle background glow */}
       <div
         className="absolute inset-0 pointer-events-none"
@@ -100,7 +100,7 @@ export default function Performance() {
         }}
       />
 
-      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="relative max-w-7xl mx-auto px-5 sm:px-6 lg:px-8">
         {/* Header */}
         <motion.div
           className="text-center mb-16 md:mb-20"

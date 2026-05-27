@@ -6,7 +6,7 @@
  */
 
 export const heroContent = {
-  badge: "EST. 2024",
+  badge: "EST. 2026",
   headline: "Where Flavor\nMeets Art",
   subheadline:
     "An immersive culinary journey crafted for those who seek the extraordinary.",

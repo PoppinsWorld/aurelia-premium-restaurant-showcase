@@ -36,8 +36,8 @@ const itemVariants = {
 
 export default function TechStack() {
   return (
-    <section className="relative py-24 md:py-32 lg:py-40 overflow-hidden scroll-mt-20">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section className="relative py-16 sm:py-24 md:py-32 lg:py-40 overflow-hidden scroll-mt-20">
+      <div className="max-w-7xl mx-auto px-5 sm:px-6 lg:px-8">
         {/* Header */}
         <motion.div
           className="text-center mb-16 md:mb-20"

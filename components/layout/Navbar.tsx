@@ -51,7 +51,7 @@ export default function Navbar() {
 
   return (
     <motion.header
-      initial={{ y: 0 }}
+      initial={false}
       animate={{ y: isVisible ? 0 : -100 }}
       transition={{ duration: 0.3, ease: [0.22, 1, 0.36, 1] }}
       style={{ willChange: "transform" }}
@@ -62,7 +62,7 @@ export default function Navbar() {
         isScrolled && "shadow-[0_1px_12px_rgba(0,0,0,0.3)]"
       )}
     >
-      <nav className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <nav className="mx-auto max-w-7xl px-5 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between md:h-20">
           {/* Logo */}
           <a
@@ -151,7 +151,7 @@ export default function Navbar() {
               <div className="mt-auto pb-8">
                 <div className="h-px w-full bg-gradient-to-r from-transparent via-[#C9A96E]/30 to-transparent" />
                 <p className="mt-4 text-xs tracking-widest text-[#6B6B6B]">
-                  AURELIA &mdash; EST. 2024
+                  AURELIA &mdash; EST. 2026
                 </p>
               </div>
             </motion.div>
